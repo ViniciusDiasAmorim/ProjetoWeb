@@ -11,11 +11,16 @@
     <h1>Previsão do Tempo</h1>
     <input type="text" id="cityName" placeholder="Digite o nome da cidade" />
     <button onclick="fetchWeather()">Buscar</button>
-  </div>
     
-  <div class="container-regions"></div>
- 
-
-
+    <input type="text" id="filter-name" placeholder="Filtrar por nome" oninput="filterCards()" />
+    <select id="sort-temperature" onchange="sortCards()">
+      <option value="">Ordenar por temperatura</option>
+      <option value="asc">Menor para maior</option>
+      <option value="desc">Maior para menor</option>
+    </select>
+  </div>  
+  <div class="container-regions">
+  </div>
+</body>
 
 <script src="main.js"></script>

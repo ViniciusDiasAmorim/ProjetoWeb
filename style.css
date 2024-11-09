@@ -22,6 +22,11 @@ body {
     font-size: 16px;
     margin-top: 10px;
     cursor: pointer;
+    max-width: 100px;
+  }
+
+  #sort-temperature {
+   margin: 10px 0px; 
   }
 
   .weather-card {
@@ -48,4 +53,8 @@ body {
     flex-wrap: wrap;
     width: 60vw;
     margin: auto;
+  }
+
+  .remove-button {
+    margin-right: 5px;
   }
