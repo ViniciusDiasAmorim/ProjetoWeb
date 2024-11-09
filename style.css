@@ -1,39 +1,51 @@
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
-    margin: 0;
   }
-  .container {
+
+  .container-controls {
     text-align: center;
+    width: 25vw;
+    margin: auto;
   }
+
   input {
     padding: 10px;
     font-size: 16px;
     margin-top: 20px;
     width: 80%;
   }
+
   button {
     padding: 10px 20px;
     font-size: 16px;
     margin-top: 10px;
     cursor: pointer;
   }
+
   .weather-card {
-    margin-top: 20px;
+    margin-top: 15px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     max-width: 300px;
-    text-align: left;
+    text-align: center;
+    margin-right: 15px;
   }
+
   .weather-card h3 {
     margin: 0;
   }
+
   .weather-card p {
     margin: 5px 0;
+  }
+
+  .container-regions {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin: auto;
   }
